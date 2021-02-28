@@ -1,4 +1,4 @@
-public with sharing class UserManagerHelpers {
+public class UserManagerHelpers {
   public static Boolean fromRest = String.valueOf(URL.getCurrentRequestUrl())
     .toLowerCase()
     .contains('services/apexrest');
